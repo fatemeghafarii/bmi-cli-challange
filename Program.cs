@@ -16,7 +16,7 @@ namespace MyFirstProject
         } 
         static void ProgramRunKey(string[] args)
         {
-            if(args.Length >= 2 && args[0] == "bmi")
+            if(args.Length == 2 && args[0] == "bmi")
             {
                 switch(args[1])
                 {
@@ -28,7 +28,7 @@ namespace MyFirstProject
                         break;    
                 }
             }
-            else if(args.Length >= 5 && args[0] == "bmi")
+            else if(args.Length == 5 && args[0] == "bmi")
             {
                InputWieghtAndHeight(args);
             }
